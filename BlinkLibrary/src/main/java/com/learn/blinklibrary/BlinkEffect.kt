@@ -6,7 +6,7 @@ import android.graphics.Color
 import android.view.View
 import android.view.animation.Animation
 
-object BlinkEffect {
+public static object BlinkEffect {
 
     fun blink(view: View) {
         // adding the color to be shown
